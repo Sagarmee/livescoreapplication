@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Argiss';
+  src: local(Argiss), url("./asset/Font/argiss/Argiss.otf") format('truetype');
+}
+
+@font-face {
+  font-family: 'pepsi';
+  src: local(pepsi) url("./asset/Font/pepsi/PEPSI_pl.ttf") format('truetype');
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .ad {
+    display: none !important;
+  }
+}

@@ -1,0 +1,92 @@
+.brandName {
+    font-family: Argiss, sans-serif !important;
+    font-size: 1.8rem !important;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #EEEEEE !important;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+    border-bottom: 2px solid orange !important;
+}
+
+li,
+p {
+    font-size: 15px;
+    color: #063970;
+    font-weight: 400;
+    font-family: pepsi, sans-serif;
+    text-transform: capitalize;
+}
+
+/* Schedule */
+
+.Schedule .schdule-top-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+}
+
+.Schedule .schdule-top-link .active {
+    color: blue;
+}
+
+/* footer style */
+
+.footer {
+    min-height: 80vh;
+}
+
+
+.footer .box-1 {
+    padding: 10px 0;
+}
+
+
+.footer .box-1 .stack-1 img {
+    margin-top: -10px;
+}
+
+.footer .footer-bottom-stack {
+    padding: 3rem 0rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .copyright-stack {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .footer {
+        min-height: 50vh;
+    }
+
+    .footer .box-1 .stack-1 img {
+        margin-bottom: -10px;
+    }
+
+    .footer .box-2 .stack-2 span {
+        color: purple;
+    }
+
+    .footer .footer-upper-stack {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer .footer-bottom-stack {
+        flex-direction: row;
+        width: 50%;
+    }
+}
